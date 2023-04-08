@@ -62,6 +62,9 @@ a {
     flex-direction: row;
     gap: 0;
 }
+.page-header__list-el{
+    margin-bottom: 5px;
+}
 .page-header__title {
     font-style: normal;
     font-weight: 800;
