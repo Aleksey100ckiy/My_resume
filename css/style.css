@@ -140,6 +140,10 @@ a {
 
 .page-header_icon{
     fill: #023E8A;
+    margin-right: 15px;
+}
+.page-header_icon:hover{
+scale: 1.2;
 }
 .page-header__link{
     display: flex;
