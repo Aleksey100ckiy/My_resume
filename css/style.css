@@ -114,8 +114,8 @@ a {
 .page-header__image{
 }
 .page-header__circle-border{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     display: inline-block;
     border: 11px solid #52d4ff;
     border-radius: 50%;
@@ -126,12 +126,12 @@ a {
 .page-header__circle-border::before{
     content: '';
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    background: url(../images/my_photo.jpg) 0 0 / 150px no-repeat;
+    background: url(../images/my_photo.jpg) 0 0 / 250px no-repeat;
     position: absolute;
-    transform: translate(10%, 10%);
+    transform: translate(6%, 6%);
 }
 
 
