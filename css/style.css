@@ -144,20 +144,135 @@ a {
     flex-direction: row;
 }
 
+
 .page-main__data{
-    background-color: rgba(9, 9, 186, 0.954);
+    background-color: #023E8A;
     flex: 0 1 70%;
     display: flex;
     border-radius: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding: 50px ;
 }
 
 .page-main__sidebar{
     flex: 0 1 30%;
     display: flex;
+    padding: 30px 30px;
+    flex-direction: column;
 
 }
+.sidebar-elenent__list-item::after{
+    content:'';
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 2px;
+    background-color: #00B4D8;
+    color: #00B4D8;
+}
+
+.wrapper {}
+
+.page-header {}
+
+.container {}
+
+.page-header__body {}
+
+.page-header__title {}
+
+.page-header__subtitle {}
+
+.page-header__info {}
+
+.page-header__list-info {}
+
+.page-header_icon {}
+
+.page-header__image {}
+
+.page-header__circle-border {}
+
+.page-main { 
+   }
+
+.page-main__content {}
+
+.page-main__data {}
+
+.page-main__section {
+    margin-bottom: 20px;
+}
+.page-main__section li{
+    margin-top: 20px;
+}
+.section__title{
+    margin: 0 0 30px -50px;
+    font-style: normal;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    color: #fff;
+    background: linear-gradient(90deg, #0096C7 0%, rgba(0, 150, 199, 0) 84.32%);;
+}
+.section__title::before{
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 60px;
+    background-color: #023E8A;
+    border-radius: 50%;
+    transform: translate(-50%, 20% );
+}
+.section__subtitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    color: #48CAE4;
+}
+.section__subtitle-second-row{
+font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0;
+}
+.section__text{
+    font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        opacity: 0.7;
+}
+
+.sidebar__title{
+    font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        align-items: center;
+        text-transform: uppercase;
+        color: #000124;
+}
+.subtitle__text{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+align-items: center;
+text-transform: uppercase;
+
+color: #000000;}
+
+.page-main__ {}
+
+.page-main__sidebar {}
+
+.sidebar-element {}
+
+.sidebar-elenent__list-item {}
 /* .page-header__photo:nth-child(1){
     content: ''; */
     /* position: absolute; */
