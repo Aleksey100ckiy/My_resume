@@ -136,7 +136,11 @@ a {
 
 
 .page-header_icon{
-    fill: green;
+    fill: #023E8A;
+}
+.page-header__link{
+    display: flex;
+    align-items: flex-start;
 }
 
 .page-main__content{
@@ -207,6 +211,11 @@ a {
 .page-main__section li{
     margin-top: 20px;
 }
+.page-main_icon{
+    fill: #FFFFFF;
+    position: absolute;
+    transform: translate(-256%, 50%);
+}
 .section__title{
     margin: 0 0 30px -50px;
     font-style: normal;
@@ -273,6 +282,11 @@ font-style: normal;
 .sidebar-element:first-child{
     margin-top: 30px;
 }
+.page__sidebar_icon{
+    fill: #FFFFFF;
+    position: absolute;
+    transform: translate(-50%, 0%)
+}
 .subtitle__text{
 font-style: normal;
 font-weight: 400;
@@ -282,6 +296,10 @@ align-items: center;
 text-transform: uppercase;
 
 color: #000000;}
+
+.section__text_links{
+    text-decoration: underline;
+}
 
 .page-main__ {}
 
